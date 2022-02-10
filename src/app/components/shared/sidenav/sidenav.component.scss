@@ -3,10 +3,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
 .app-layout {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .menu-sidebar {
@@ -75,6 +76,14 @@ nz-content {
 
 .inner-content {
   padding: 24px;
-  background: #fff;
+  background-color: #fff;
   height: 100%;
+}
+
+.side-nav-links a {
+  text-decoration: none;
+}
+
+.nz-child-layout{
+  width: 100% !important;
 }
