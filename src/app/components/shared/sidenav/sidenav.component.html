@@ -1,6 +1,5 @@
 <nz-layout class="app-layout">
   <nz-sider class="menu-sidebar"
-            nzCollapsible
             nzWidth="256px"
             nzBreakpoint="md"
             [(nzCollapsed)]="isCollapsed"
@@ -9,7 +8,7 @@
     <div class="sidebar-logo">
       <a href="https://ng.ant.design/" target="_blank">
         <img src="https://ng.ant.design/assets/img/logo.svg" alt="logo">
-        <h1>Ant Design Of Angular</h1>
+        <h1>Electro</h1>
       </a>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
@@ -19,7 +18,7 @@
             <a routerLink="/menu">Menu</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a>Monitor</a>
+            <a routerLink="/cart">View cart</a>
           </li>
           <li nz-menu-item nzMatchRouter>
             <a>Workplace</a>

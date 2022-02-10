@@ -14,6 +14,7 @@ import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { IconsProviderModule } from './icons-provider.module';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { CartComponent } from './components/cart/cart.component';
 registerLocaleData(en);
 
 @NgModule({
@@ -21,7 +22,8 @@ registerLocaleData(en);
     AppComponent,
     SideNavComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
